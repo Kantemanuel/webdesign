@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mon_formulaire</title>
+</head>
+<body text="sandybrown">
+  <p align="center" >VOICI LE FORMULAIRE D'INSCRIPTION</p>
+
+  <form method="post" action="traitement.php">
+   <p> <label >VOTRE NOM</label>:<input type="text" name="noms" id="nom" /><br><br><br><br>
+    <label>VOTRE PRENOM</label>:<input type="text" name="Prénoms" id="prenoms"/><br><br><br><br>
+    <label>VOTRE MOT DE PASSE</label>:<input type="password" name="Noms" id="mot de passe"/> <br><br><br><br>
+    <label>VOTRE NUMERO</label>:<input type="number" name="Noms" id="numero"/><br><br><br><br>
+
+    <p>
+        <label for="pays">NATIONALITE:
+        <select name="pays" id="pays">
+    <optgroup label="Europe">
+    <option value="france">France</option>
+    <option value="espagne">Espagne</option>
+    <option value="italie">Italie</option>
+    <option value="royaume-uni">Royaume-Uni</option>
+    </optgroup>
+    <optgroup label="Amérique">
+    <option value="canada">Canada</option>
+    <option value="etats-unis">Etats-Unis</option>
+    </optgroup>
+    <optgroup label="Asie">
+    <option value="chine">Chine</option>
+    <option value="japon">Japon</option>
+    </optgroup>
+    </select>
+        </label><br/>
+  </p>
+  </form>
+</body>
+</html>
